@@ -62,7 +62,7 @@ return htmlTemplate;
 var counter = 1;
 app.get('/counter', function(req, res){
     counter++;
-    res.send(counter);
+    res.send(counter.toString());
 });
 
 app.get('/ui/madi.png', function (req, res) {
