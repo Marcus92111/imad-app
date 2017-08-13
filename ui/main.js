@@ -4,7 +4,7 @@ function incrementCounter(){
   request.onreadystatechange = function(){
     if(request.readyState === XMLHttpRequest.DONE ){
       if(request.status === 200){
-        var count = document.etElementById('count');
+        var count = document.gtElementById('count');
         count.innerHTML = request.responseText;
       }
     }
